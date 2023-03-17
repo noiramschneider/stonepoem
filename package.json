@@ -1,0 +1,19 @@
+{
+  "name": "stonepoem",
+  "version": "1.0.0",
+  "description": "creates a poem with chat gpt and displays it on webpage via p5.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marion Schneider",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1",
+    "socket.io": "^4.6.1",
+    "ws": "^8.13.0"
+  }
+}
