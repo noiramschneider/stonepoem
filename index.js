@@ -36,9 +36,10 @@ const doIt = async () => {
     const message = completion.data.choices[0].message.content;
     console.log('this is the message '+ message);
     
-    setTimeout(() => {
-      socket.emit('message', message);
-    }, 10000); // 1 second delay
+   // setTimeout(() => {
+       // io.emit('message', "hello world");
+      socket.emit('message', "voila le message");
+   // }, 10000); // 1 second delay
 
   } catch (error) {
     if (error.response) {
