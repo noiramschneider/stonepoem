@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -26,7 +27,7 @@ process.on('uncaughtException', function(err) {
   console.log('Caught exception: ' + err);
 });
 
-require('dotenv').config();
+
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
