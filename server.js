@@ -38,7 +38,7 @@ const openai = new OpenAIApi(configuration);
 
 const doIt = async () => {
   const messages = [
-    { role: 'user', content: "Pourrais-tu créer un poème qu'un robot écrirait à une roche ? Le poème serait inspiré par la culpabilité, la peur et la tristesse que le robot éprouve face à la crise environnementale. Ce serait des excuses motivées par l'empathie, mettant en lumière le caractère minéral de chacun. Il doit contenir moins de 800 caractères." }
+    { role: 'user', content: "Pourrais-tu créer un poème qu'un robot écrirait à une roche ? La roche est un schiste d'environ 1 tonne et le robot est face a elle dans une galerie. Le poème serait inspiré par la culpabilité, la peur et la tristesse que le robot éprouve face à la crise environnementale. Ce serait des excuses motivées par l'empathie, mettant en lumière le caractère minéral des deux agents. Il doit contenir moins de 800 caractères." }
 
   ];
 
@@ -61,5 +61,5 @@ const doIt = async () => {
   }
 };
 
-// Call doIt every hour
-setInterval(doIt, 60000); // 60 seconds * 1000 milliseconds
+// Call doIt every half an hour
+setInterval(doIt, 3600000/2); // 60 seconds * 1000 milliseconds
