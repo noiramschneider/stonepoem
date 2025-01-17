@@ -38,7 +38,7 @@ const openai = new OpenAIApi(configuration);
 
 const doIt = async () => {
   const messages = [
-    { role: 'user', content: 'could you create a poem that a robot would write to a stone ? The poem would be inspired by the guilt, fear and sadness that the robot feels about the environmental crisis. It would be an apology motivated by empathy and would highlight the mineral carracter of both parties. It has to be less than 800 characters.' }
+    { role: 'user', content: 'Pourrais-tu créer un poème qu'un robot écrirait à une pierre ? Le poème serait inspiré par la culpabilité, la peur et la tristesse que le robot éprouve face à la crise environnementale. Ce serait des excuses motivées par l'empathie, mettant en lumière le caractère minéral de chacun. Il doit contenir moins de 800 caractères.' }
   ];
 
   try {
