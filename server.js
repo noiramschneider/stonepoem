@@ -60,4 +60,4 @@ const doIt = async () => {
 };
 
 // Call doIt every hour
-setInterval(doIt, 60 * 60000); // 60 seconds * 1000 milliseconds
+setInterval(doIt, 60000); // 60 seconds * 1000 milliseconds
