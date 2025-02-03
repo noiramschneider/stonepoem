@@ -27,7 +27,7 @@ function draw() {
   rotate(HALF_PI);
   fill(255);
   textLeading(40);
-  textSize(32);
+  textSize(28);
   if (lines) {
     for (let i = 0; i < lines.length; i++) {
       let line = lines[i];
